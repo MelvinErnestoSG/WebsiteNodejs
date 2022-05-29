@@ -38,4 +38,9 @@ App.post('/imagen', upload.single('imagen') , async (req, res)=>{
     res.send({resizedImage: resizedImageBuffer})
 })
 
-App.listen(3000)
+/*Para detectar el puerto aleatorio a heroku */
+const Port = process.env.Port || 3000 ||  4000
+
+App.listen(Port, function(){
+    console.log("Servido Esta escuchando en el puerto", Port)
+})
