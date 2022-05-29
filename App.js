@@ -14,7 +14,7 @@ App.use(express.json())
 
 /*Haciendo una petición a nuestro servidor nodejs.*/
 App.get('/', (req, res) => {
-    res.send('Hello World')
+    res.send('Hello World from heroku')
 })
 
 /*Recibir imágenes en una ruta de nuestro servidor nodejs y multer.*/
