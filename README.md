@@ -12,3 +12,4 @@ ejecutar en la terminal el comando
 node NombreAchivo.js luego enter para levantar el servidor
 Abri el navegador escribir http://localhost:3000/
 
+Captura web_30-5-2022_13055_localhost.jpeg
