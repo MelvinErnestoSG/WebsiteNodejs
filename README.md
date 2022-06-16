@@ -1,13 +1,21 @@
-# Creando Servidor de Node con un hola mundo
-Primero Crear un archivo de tipo js
+# Configuracion del Proyecto.
+Crear una carpeta WebsiteNodejs.
+Abrir una terminal con el comando (npm init -y) para crear package.json. 
 
-# Iniciar el proyecto de Node JS para crear package.json
-npm init
+# Instalar dependencias.
+Express se utiliza para crear el servidor y servir paginas al frontend hacia el navegador.
+Morgan se utiliza para poder ver por consola las peticiones que van llegando.
+Ejs se utiliza para extender al HTML con logica de programación sin tener que llamar etiquetas.
+Con el comando npm i express morgan ejs
 
-# Instalar Express como dependencia en el proyecto 
-npm install express
+# Instalar modulos de desarrollo devDepencies.
+npm i nodenom -D
 
-# Para enviar la respuesta al navegador
-ejecutar en la terminal el comando 
-node NombreAchivo.js luego enter para levantar el servidor
-Abri el navegador escribir http://localhost:3000/
+# Para reiniciar el codigo sin tener que ejecutar con cada cambio.
+npx nodemon src/index.js
+
+# Para crear el scripts en el package.json.
+"dev":src/index.js
+
+# Para ejecutar el scripts por consola que esta modificado en package.json.
+npm run dev
