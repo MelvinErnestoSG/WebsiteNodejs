@@ -1,11 +1,15 @@
 # Configuracion del Proyecto.
 Crear una carpeta WebsiteNodejs.
+
 Abrir una terminal con el comando (npm init -y) para crear package.json. 
 
 # Instalar dependencias.
 Express se utiliza para crear el servidor y servir paginas al frontend hacia el navegador.
+
 Morgan se utiliza para poder ver por consola las peticiones que van llegando.
+
 Ejs se utiliza para extender al HTML con logica de programación sin tener que llamar etiquetas.
+
 Con el comando npm i express morgan ejs
 
 # Instalar modulos de desarrollo devDepencies.
