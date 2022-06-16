@@ -11,5 +11,3 @@ npm install express
 ejecutar en la terminal el comando 
 node NombreAchivo.js luego enter para levantar el servidor
 Abri el navegador escribir http://localhost:3000/
-
-![Captura web_30-5-2022_13055_localhost](https://user-images.githubusercontent.com/101652978/170923691-e4618baf-d0d4-4185-b50e-2a4b29b593cb.jpeg)
