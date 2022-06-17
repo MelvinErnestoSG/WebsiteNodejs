@@ -1,6 +1,8 @@
 # Configuracion del Proyecto.
 Crear una carpeta WebsiteNodejs.
 
+npm install en una terminal.
+
 Abrir una terminal con el comando (npm init -y) para crear package.json. 
 
 # Instalar dependencias.
