@@ -1,5 +1,5 @@
 {
-  "name": "nodejs_server",
+  "name": "websitenodejs",
   "version": "1.0.0",
   "description": "Este es un servidor de Nodejs",
   "main": "index.js",
